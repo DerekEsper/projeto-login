@@ -1,1 +1,58 @@
 @charset "UTF-8";
+
+/* 
+TYPICAL DEVIDES BREAKPOINTS:
+---------------------------------------------
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes Telas (Tv): Acima de 1200px
+*/
+
+@media print {
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+  #login {
+    width: 80vw;
+  }
+
+  #imagem {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+
+  #formulario {
+    float: right;
+    width: 60%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+
+  body {
+    background-image: linear-gradient(to top, #49a09d, #5f2c82);
+  }
+
+  #login {
+    width: 950px;
+    color: white;
+  }
+
+  #imagem {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+
+  #formulario {
+    float: right;
+    width: 60%;
+    height: 100%;
+    background-color: #353435;
+  }
+}
