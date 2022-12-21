@@ -94,7 +94,7 @@ div.campo > span {
 }
 
 div.campo > input {
-  background-color: rgb(26, 230, 230);
+  background-color: aqua;
   font-size: 1em;
   width: 70%;
   height: 70%;
@@ -105,7 +105,7 @@ div.campo > input {
 }
 
 div.campo > input:focus-within {
-  background-color: rgb (48, 48, 48);
+  background-color: rgb(73, 182, 182);
 }
 
 
